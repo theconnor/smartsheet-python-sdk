@@ -1,6 +1,10 @@
 Smartsheet Python SDK
 =====================
 
+**IN CARETAKER MODE**
+The current latest API version is 2.0.  The 1.1 API is deprecated and will be shut down in July 2016.
+See the api_v_2.0 branch -- if it works for your needs, please use it instead.
+
 Python client library for version 1.1 of the Smartsheet API.
 The Smartsheet API is documented at:
 https://www.smartsheet.com/developers/api-documentation
