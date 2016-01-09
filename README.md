@@ -1,15 +1,14 @@
 Smartsheet Python SDK
 =====================
 
-**IN CARETAKER MODE**
-The current latest API version is 2.0.  The 1.1 API is deprecated and will be shut down in July 2016.
-See the api_v_2.0 branch -- if it works for your needs, please use it instead.
+**IN CARETAKER MODE:** 
+
+**This branch (api_v1.1) uses version 1.1 of the Smartsheet API, which is deprecated and will be shut down in July 2016.  All new development should use version 2.0 of the Smartsheet API (see the master branch of this repo), and any existing API 1.1 integrations should be upgraded ASAP to using API 2.0, to avoid any potential disruption when API 1.1 is decommissioned in July 2016.**
 
 Python client library for version 1.1 of the Smartsheet API.
-The Smartsheet API is documented at:
-https://www.smartsheet.com/developers/api-documentation
+The version 1.1 of the Smartsheet API is documented at: http://smartsheet-platform.github.io/api-docs-v1/
 
-**NOTE: Please note that this SDK is pre-alpha.  It is incomplete, has not been rigorously tested, and is a work in progress.  See below for known issues, feature gaps, and a rough roadmap.  If you need a missing feature urgently, you are strongly encouraged to build it and submit a pull request.  If you need a feature and can't or don't want to build it, please create an issue for it.  Thanks for understanding.**
+Please note that this branch of the SDK repo is pre-alpha and is built using API 1.1 (which is now depricated, as described above).  It is incomplete and has not been rigorously tested.
 
 # What Works
 
